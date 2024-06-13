@@ -18,11 +18,11 @@ VERSION = {}
 # We use exec here to read it so that we don't import scispacy
 # whilst setting up the package.
 with open("scispacy/version.py", "r") as version_file:
-    exec(version_file.read(), VERSION)
+    exec(version_file.read(), "VERSION")
 
 setup(
     name="scispacy",
-    version=VERSION["VERSION"],
+    version="0.5.3.1",
     url="https://allenai.github.io/scispacy/",
     author="Allen Institute for Artificial Intelligence",
     author_email="ai2-info@allenai.org",
