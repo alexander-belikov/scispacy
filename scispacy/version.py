@@ -1,6 +1,7 @@
 _MAJOR = "0"
 _MINOR = "5"
-_REVISION = "4"
+_REVISION = "0"
+_MICRO = "1"
 
 VERSION_SHORT = "{0}.{1}".format(_MAJOR, _MINOR)
-VERSION = "{0}.{1}.{2}".format(_MAJOR, _MINOR, _REVISION)
+VERSION = "{0}.{1}.{2}.{3}".format(_MAJOR, _MINOR, _REVISION, _MICRO)
